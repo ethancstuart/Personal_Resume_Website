@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: lightblue;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+nav a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skills-column {
+  float: left;
+  width: 50%;
+}
+
+.home-background {
+  background-color: rgb(204, 255, 255);
+}
+
+.bio-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.bio-box {
+  background-color: rgb(255, 204, 229);
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.profile-picture {
+  height: 300px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+nav li {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav li ul li {
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.disclaimer {
+  float: left;
+  margin-left: 3 inches;
+}
+
+.social-media {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.experience-bullets {
+  margin-right: 1.5in;
+}
+
+.skills-column {
+  background-color: white;
+}
+
+code {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 14px;
+  display: block;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.sql {
+  color: #008080;
+}
+
+pre {
+  text-align: left;
+}
